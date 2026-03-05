@@ -35,5 +35,23 @@ namespace TamaGagyi
         {
 
         }
+
+        private void RegButtonClick(object sender, RoutedEventArgs e)
+        {
+            RegWindow registerWindow = new RegWindow();
+
+            registerWindow.Show();
+            this.Close();
+        }
+
+        private void UserNameInput_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void UserNameInput_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

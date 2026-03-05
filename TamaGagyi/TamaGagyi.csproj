@@ -9,11 +9,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="assets\fonts\Fredoka.ttf" />
+    <None Remove="assets\img\back.png" />
+    <None Remove="assets\img\background.png" />
+    <None Remove="assets\img\background_reg.png" />
     <None Remove="assets\img\close.png" />
     <None Remove="assets\img\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="assets\fonts\Fredoka.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\back.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\background.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\background_reg.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="assets\img\close.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>

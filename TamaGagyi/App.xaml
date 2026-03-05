@@ -4,6 +4,14 @@
              xmlns:local="clr-namespace:TamaGagyi"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!-- Apply Fredoka to all Controls -->
+        <Style TargetType="{x:Type Control}">
+            <Setter Property="FontFamily" Value="/assets/fonts/#Fredoka"/>
+        </Style>
+
+        <!-- Apply Fredoka to TextBlocks (not a Control) -->
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="FontFamily" Value="/assets/fonts/#Fredoka"/>
+        </Style>
     </Application.Resources>
 </Application>

@@ -31,9 +31,11 @@ namespace TamaGagyi
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void LoginClick(object sender, RoutedEventArgs e)
         {
-
+            MainMenu menu = new MainMenu();
+            menu.Show();
+            this.Close();
         }
 
         private void RegButtonClick(object sender, RoutedEventArgs e)

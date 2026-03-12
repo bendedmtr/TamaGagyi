@@ -330,7 +330,7 @@
 
         <StackPanel Orientation="Vertical" Grid.Row="3" Grid.Column="5" Grid.RowSpan="5" Grid.ColumnSpan="6" Margin="0,50,0,0">
             <TextBlock Text="Felhasználó" FontWeight="SemiBold" FontSize="24" Margin="210,0,200,3" Foreground="#322d29"/>
-            <TextBox Name="UserNameInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedTextBox}" />
+            <TextBox Name="UserNameInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedTextBox}"/>
             <TextBlock Text="Jelszó" FontWeight="SemiBold" FontSize="24" Margin="210,20,200,3" Foreground="#322d29"/>
             <PasswordBox Name="UserPasswordInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedPswrdBox}"/>
             <TextBlock Text="Jelszó megint" FontWeight="SemiBold" FontSize="24" Margin="210,10,200,3" Foreground="#322d29"/>

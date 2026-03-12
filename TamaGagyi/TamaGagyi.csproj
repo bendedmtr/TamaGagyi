@@ -12,7 +12,12 @@
     <None Remove="assets\fonts\Fredoka.ttf" />
     <None Remove="assets\img\back.png" />
     <None Remove="assets\img\background.png" />
+    <None Remove="assets\img\background_aquarium.png" />
+    <None Remove="assets\img\background_bank.png" />
+    <None Remove="assets\img\background_cage.png" />
+    <None Remove="assets\img\background_mainmenu.png" />
     <None Remove="assets\img\background_reg.png" />
+    <None Remove="assets\img\background_terrarium.png" />
     <None Remove="assets\img\close.png" />
     <None Remove="assets\img\logo.png" />
   </ItemGroup>
@@ -27,7 +32,22 @@
     <Resource Include="assets\img\background.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="assets\img\background_aquarium.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\background_bank.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\background_cage.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\background_mainmenu.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="assets\img\background_reg.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\background_terrarium.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="assets\img\close.png">

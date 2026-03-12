@@ -266,7 +266,7 @@
             <TextBox Name="UserNameInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedTextBox}" TextChanged="UserNameInput_TextChanged_1"/>
             <TextBlock Text="Jelszó" FontWeight="SemiBold" FontSize="24" Margin="210,20,200,3" Foreground="#322d29"/>
             <PasswordBox Name="UserPasswordInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedPswrdBox}"/>
-            <Button Content="Bejelentkezés" Style="{StaticResource RoundedYellowButton}" Height="50" Width="300" Click="Button_Click" FontWeight="SemiBold" Margin="0,50,0,0" Foreground="#CC561E"/>
+            <Button Content="Bejelentkezés" Style="{StaticResource RoundedYellowButton}" Height="50" Width="300" Click="LoginClick" FontWeight="SemiBold" Margin="0,50,0,0" Foreground="#CC561E"/>
             <Button Content="Regisztráció" Style="{StaticResource RoundedYellowButton}" Height="50" Width="300" Click="RegButtonClick" FontWeight="SemiBold" Margin="0,15,0,0" Foreground="#FFE066" Background="#CC561E"/>
         </StackPanel>
         

@@ -223,6 +223,29 @@
             <Setter Property="Padding" Value="10,4"/>
 
         </Style>
+        <Style x:Key="RoundedProgressBar" TargetType="ProgressBar">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Foreground" Value="#FDE7B3"/>
+            <Setter Property="Background" Value="#957C62"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ProgressBar">
+                        <Border Background="{TemplateBinding Background}"
+                        BorderBrush="#322d29"
+                        BorderThickness="4"
+                        CornerRadius="12"
+                        SnapsToDevicePixels="True">
+                            <Grid x:Name="PART_Track" ClipToBounds="True">
+                                <Rectangle x:Name="PART_Indicator"
+                                   Fill="{TemplateBinding Foreground}"
+                                   HorizontalAlignment="Left"
+                                   RadiusX="10" RadiusY="10"/>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Window.Resources>
     <Grid>
         <Grid.Background>
@@ -501,8 +524,9 @@
         </Ellipse>
 
         <StackPanel Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="4" Orientation="Vertical" Margin="0,110,0,-20">
-            <Label Content="Experience" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="22" Margin="0,0,0,4"/>
-            <ProgressBar Background="AliceBlue" Foreground="LightBlue" Value="50" Height="30"/>
+            <Label Content="Experience" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="22" Margin="0,0,0,4" HorizontalAlignment="Left"/>
+            <ProgressBar Background="AliceBlue" Foreground="LightBlue" Value="50" Height="30" Width="300" Style="{StaticResource RoundedProgressBar}" HorizontalAlignment="Left"/>
+            <Label Content="Level X" Foreground="#384259" Margin="10,-29,0,0" FontWeight="SemiBold" FontSize="14"/>
 
 
         </StackPanel>

@@ -315,7 +315,7 @@
                        ItemHeight="230">
 
                         <!-- Tile -->
-                        <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="animalID" Click="AnimalSelectedClick" Padding="0">
+                        <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="cage" Click="AnimalSelectedClick" Padding="0">
 
                             <Button.Template>
                                 <ControlTemplate TargetType="Button">
@@ -325,7 +325,36 @@
                                 </ControlTemplate>
                             </Button.Template>
 
-                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"/>
+                            <TextBlock Text="Eagle"
+FontSize="40" Foreground="White" FontWeight="Bold"/>
+                        </Button>
+
+                        <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="aquarium" Click="AnimalSelectedClick" Padding="0">
+
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="25">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+
+                            <TextBlock Text="Fih" Foreground="White" FontWeight="Bold"
+                                       FontSize="40"/>
+                        </Button>
+
+                        <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="terrarium" Click="AnimalSelectedClick" Padding="0">
+
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="25">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+
+                            <TextBlock Text="Iguana" Foreground="White" FontWeight="Bold"
+                                        FontSize="40"/>
                         </Button>
 
                         <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="animalID" Click="AnimalSelectedClick" Padding="0">
@@ -338,7 +367,8 @@
                                 </ControlTemplate>
                             </Button.Template>
 
-                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"/>
+                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"
+                                        FontSize="40"/>
                         </Button>
 
                         <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="animalID" Click="AnimalSelectedClick" Padding="0">
@@ -351,33 +381,8 @@
                                 </ControlTemplate>
                             </Button.Template>
 
-                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"/>
-                        </Button>
-
-                        <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="animalID" Click="AnimalSelectedClick" Padding="0">
-
-                            <Button.Template>
-                                <ControlTemplate TargetType="Button">
-                                    <Border Background="{TemplateBinding Background}" CornerRadius="25">
-                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Button.Template>
-
-                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"/>
-                        </Button>
-
-                        <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="animalID" Click="AnimalSelectedClick" Padding="0">
-
-                            <Button.Template>
-                                <ControlTemplate TargetType="Button">
-                                    <Border Background="{TemplateBinding Background}" CornerRadius="25">
-                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Button.Template>
-
-                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"/>
+                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"
+                                        FontSize="40"/>
                         </Button>
 
                         <!-- second row -->
@@ -391,7 +396,8 @@
                                 </ControlTemplate>
                             </Button.Template>
 
-                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"/>
+                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"
+                                        FontSize="40"/>
                         </Button>
 
                         <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="animalID" Click="AnimalSelectedClick" Padding="0">
@@ -404,7 +410,8 @@
                                 </ControlTemplate>
                             </Button.Template>
 
-                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"/>
+                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"
+                                        FontSize="40"/>
                         </Button>
 
                         <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="animalID" Click="AnimalSelectedClick" Padding="0">
@@ -417,7 +424,8 @@
                                 </ControlTemplate>
                             </Button.Template>
 
-                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"/>
+                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"
+                                        FontSize="40"/>
                         </Button>
 
                         <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="animalID" Click="AnimalSelectedClick" Padding="0">
@@ -430,7 +438,8 @@
                                 </ControlTemplate>
                             </Button.Template>
 
-                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"/>
+                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"
+                                        FontSize="40"/>
                         </Button>
 
                         <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="animalID" Click="AnimalSelectedClick" Padding="0">
@@ -443,7 +452,8 @@
                                 </ControlTemplate>
                             </Button.Template>
 
-                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"/>
+                            <TextBlock Text="Click Me" Foreground="White" FontWeight="Bold"
+                                        FontSize="40"/>
                         </Button>
 
                         <!-- more tiles -->
@@ -494,7 +504,7 @@
 
         </Grid>
 
-        <Label Content="Állataid" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="26" Margin="7,0,0,0"/>
+        <Label Content="Pets" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="26" Margin="7,0,0,0"/>
 
 
 
@@ -524,34 +534,72 @@
         </Ellipse>
 
         <StackPanel Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="4" Orientation="Vertical" Margin="0,110,0,-20">
-            <Label Content="Tapasztalat" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="22" Margin="0,0,0,4" HorizontalAlignment="Left"/>
-            <ProgressBar Background="AliceBlue" Foreground="LightBlue" Value="50" Height="30" Width="300" Style="{StaticResource RoundedProgressBar}" HorizontalAlignment="Left"/>
-            <Label Content="X szint" Foreground="#384259" Margin="10,-29,0,0" FontWeight="SemiBold" FontSize="14"/>
+            <Label Content="Experience" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="22" Margin="0,0,0,5" HorizontalAlignment="Left"/>
+            <ProgressBar Background="AliceBlue" Foreground="LightBlue" Value="50" Height="35" Width="300" Style="{StaticResource RoundedProgressBar}" HorizontalAlignment="Left"/>
+            <Label Content="Level X" Foreground="#384259" Margin="10,-29,0,0" FontWeight="SemiBold" FontSize="14"/>
+
+            <Label Content="Finances" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="22" Margin="0,25,0,0" HorizontalAlignment="Left"/>
+            <Border Background="#322d29" Width="200" Height="35" CornerRadius="18" Name="CoinLabel" HorizontalAlignment="Left" Margin="0,5,0,5">
+                <Border Margin="4" Background="#957C62" CornerRadius="15">
+                    <TextBlock Name="foodCount" Foreground="White" Text="120" FontSize="20" Margin="10,0,40,0" HorizontalAlignment="Right" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                </Border>
+
+
+            </Border>
+            <Image Source="/assets/img/icon_food.png" Width="40" Height="40" Margin="4,-44,0,0"/>
+
+            <Border Background="#322d29" Width="200" Height="35" CornerRadius="18" Name="FoodLabel" HorizontalAlignment="left" Margin="0,5,0,0">
+                <Border Margin="4" Background="#957C62" CornerRadius="15">
+                    <TextBlock Name="moneyCount" Foreground="White" Text="120750" FontSize="20" Margin="10,0,40,0" HorizontalAlignment="Right" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                </Border>
+
+            </Border>
+            <Image Source="/assets/img/icon_money.png" Width="40" Height="40" Margin="4,-37,0,0" Visibility="Visible"/>
+
+            <Label Content="Bank" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="22" Margin="0,25,0,0" HorizontalAlignment="Left"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Debt" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="18" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+                <Border Background="#322d29" Width="150" Height="35" CornerRadius="18" Name="FoodLsabel" HorizontalAlignment="left" Margin="0,0,0,0">
+                    <Border Margin="4" Background="#957C62" CornerRadius="15">
+                        <TextBlock Name="moneyCounet" Foreground="White" Text="120750" FontSize="20" Margin="10,0,5,0" HorizontalAlignment="right" FontWeight="SemiBold" VerticalAlignment="Center" Width="95"/>
+                    </Border>
+
+                </Border>
+                <Image Source="/assets/img/icon_money.png" Width="40" Height="40" Margin="-38,0,0,-1" Visibility="Visible"/>
+
+              
+
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <Label Content="Pay back" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="18" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBox Name="UserNameInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="115" Height="35" Style="{StaticResource RoundedTextBox}" Margin="5,0,0,0" FontSize="20" TextChanged="UserNameInput_TextChanged"/>
+                <Button Content="Pay" Style="{StaticResource RoundedYellowButton}" Height="35" Width="60" FontWeight="SemiBold" Margin="5,0,0,0" Foreground="#CC561E" FontSize="20"/>
+            </StackPanel>
+
+
 
 
         </StackPanel>
-        
+
         <!-- Finances tile -->
 
         <Label Grid.Row="0" Grid.Column="8" Grid.RowSpan="5" Grid.ColumnSpan="9" Background="#4a4037" Opacity="1" Style="{StaticResource RoundedLabel}" Margin="60,40,60,60">
         </Label>
-        
+
         <StackPanel Margin="0,55,0,0" Orientation="Vertical" Grid.Row="0" Grid.Column="9" Grid.RowSpan="4" Grid.ColumnSpan="3">
 
-            <Label Content="Pénzügyeid" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="26" HorizontalAlignment="Left"/>
+            <Label Content="Inventory" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="26" HorizontalAlignment="Left"/>
 
-            <Border Background="Black" Width="200" Height="35" CornerRadius="18" Name="CoinLabel" HorizontalAlignment="Left" Margin="0,15,0,5">
-                <Border Margin="3" Background="#957C62" CornerRadius="15"/>
-                
-                
-            </Border>
-            <Image Source="/assets/img/icon_food.png" Width="40" Height="40" Margin="4,-44,0,0"/>
-            
-            <Border Background="Black" Width="200" Height="35" CornerRadius="18" Name="FoodLabel" HorizontalAlignment="left">
-                <Border Margin="3" Background="#957C62" CornerRadius="15"/>
-               
-            </Border>
-            <Image Source="/assets/img/icon_money.png" Width="40" Height="40" Margin="4,-37,0,0"/>
+
+        </StackPanel>
+
+        <StackPanel Margin="0,55,0,0" Orientation="Vertical" Grid.Row="0" Grid.Column="12" Grid.RowSpan="4" Grid.ColumnSpan="3">
+
+            <Label Content="" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="26" HorizontalAlignment="Left"/>
+
+
         </StackPanel>
 
 

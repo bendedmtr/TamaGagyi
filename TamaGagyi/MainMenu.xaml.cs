@@ -19,6 +19,7 @@ namespace TamaGagyi
     /// </summary>
     public partial class MainMenu : Window
     {
+
         public MainMenu()
         {
             InitializeComponent();
@@ -32,6 +33,19 @@ namespace TamaGagyi
         {
             Button animalButton = sender as Button;
             MessageBox.Show($"{animalButton.Tag} állat kiválasztva");
+            if (sender is Button button)
+            {
+                string tagValue = button.Tag?.ToString();
+
+                var window = new SelectedAnimal(tagValue);
+                window.Show();
+                this.Close();
+            }
+        }
+
+        private void UserNameInput_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

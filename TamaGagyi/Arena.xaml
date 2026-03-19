@@ -1,15 +1,16 @@
-﻿<Window x:Class="TamaGagyi.RegWindow"
+﻿<Window x:Class="TamaGagyi.Arena"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TamaGagyi"
         mc:Ignorable="d"
-         WindowStyle="None"
- WindowState="Maximized" 
- ResizeMode="NoResize"
- Title="TamaGagyi" Height="1080" Width="1920"
- WindowStartupLocation="CenterScreen">
+        WindowStyle="None"
+WindowState="Maximized" 
+ResizeMode="NoResize"
+Title="TamaGagyi" Height="1080" Width="1920"
+WindowStartupLocation="CenterScreen">
+
     <Window.Resources>
 
         <Style x:Key="CapyButtonWithImage" TargetType="Button">
@@ -284,7 +285,7 @@
     </Window.Resources>
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/assets/img/background_reg.png"
+            <ImageBrush ImageSource="/assets/img/background_arena.png"
                     Stretch="UniformToFill"/>
         </Grid.Background>
 
@@ -320,28 +321,10 @@
 
         <Label Name="TitleBar" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="16" Background="Transparent" Height="40" VerticalAlignment="Top"/>
         <StackPanel Orientation="Horizontal"  Grid.Row="0" Grid.Column="15" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,3,7,0">
-            <Button Style="{StaticResource CapyButtonWithImage}" Width="35" Height="35" Click="exitButtonEvent">
+            <Button Style="{StaticResource CapyButtonWithImage}" Width="35" Height="35">
                 <Image Source="/assets/img/close.png" Stretch="Uniform" Width="23"/>
             </Button>
         </StackPanel>
-        <Image Source="/assets/img/logo.png" Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="6" Grid.RowSpan="2" Width="600" Stretch="Uniform"/>
-
-        <Label Grid.Row="3" Grid.Column="6" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#4a4037" Opacity="1" Style="{StaticResource RoundedLabel}"/>
-
-        <StackPanel Orientation="Vertical" Grid.Row="3" Grid.Column="5" Grid.RowSpan="5" Grid.ColumnSpan="6" Margin="0,50,0,0">
-            <TextBlock Text="Felhasználó" FontWeight="SemiBold" FontSize="24" Margin="210,0,200,3" Foreground="#322d29"/>
-            <TextBox Name="UserNameInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedTextBox}"/>
-            <TextBlock Text="Jelszó" FontWeight="SemiBold" FontSize="24" Margin="210,20,200,3" Foreground="#322d29"/>
-            <PasswordBox Name="UserPasswordInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedPswrdBox}"/>
-            <TextBlock Text="Jelszó megint" FontWeight="SemiBold" FontSize="24" Margin="210,10,200,3" Foreground="#322d29"/>
-            <PasswordBox Name="UserPasswordInput2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedPswrdBox}"/>
-
-            <Button Content="Regisztráció" Style="{StaticResource RoundedYellowButton}" Height="50" Width="230" Click="RegButtonClick" FontWeight="SemiBold" Margin="70,50,0,0" Foreground="#FFE066" Background="#CC561E"/>
-            
-        </StackPanel>
-        <Button Style="{StaticResource BackButtonWithImage}" Width="50" Height="50" Click="BackButtonEvent" Grid.Row="6" Grid.Column="6" Grid.ColumnSpan="2" Margin="0,2,10,40" Background="#FFE066">
-            <Image Source="/assets/img/back.png" Stretch="Uniform" Width="40" Margin="0,5,0,0"/>
-        </Button>
 
 
     </Grid>

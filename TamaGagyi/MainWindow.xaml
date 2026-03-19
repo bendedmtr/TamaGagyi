@@ -97,7 +97,7 @@
                             Background="{TemplateBinding Background}"
                             CornerRadius="10"
                             BorderBrush="#322d29"
-                            BorderThickness="4"
+                            BorderThickness="5"
                             SnapsToDevicePixels="True">
                             <ScrollViewer x:Name="PART_ContentHost"
                                       Margin="{TemplateBinding Padding}"
@@ -124,7 +124,7 @@
                     Background="{TemplateBinding Background}"
                     CornerRadius="10"
                     BorderBrush="#322d29"
-                    BorderThickness="4"
+                    BorderThickness="5"
                     SnapsToDevicePixels="True">
                             <ScrollViewer x:Name="PART_ContentHost"
                               Margin="{TemplateBinding Padding}"
@@ -152,7 +152,7 @@
                         Background="{TemplateBinding Background}"
                         CornerRadius="10"
                         BorderBrush="#322d29"
-                        BorderThickness="4"
+                        BorderThickness="5"
                         SnapsToDevicePixels="True">
                             <ContentPresenter HorizontalAlignment="Center"
                                       VerticalAlignment="Center"/>
@@ -199,7 +199,7 @@
 
                         <Border Background="#FDE7B3"
                         BorderBrush="#322d29"
-                        BorderThickness="5"
+                        BorderThickness="6"
                         CornerRadius="25"
                         Padding="{TemplateBinding Padding}">
 
@@ -262,12 +262,12 @@
         <Label Grid.Row="3" Grid.Column="6" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#4a4037" Opacity="1" Style="{StaticResource RoundedLabel}"/>
 
         <StackPanel Orientation="Vertical" Grid.Row="3" Grid.Column="5" Grid.RowSpan="5" Grid.ColumnSpan="6" Margin="0,50,0,0">
-            <TextBlock Text="Felhasználó" FontWeight="SemiBold" FontSize="24" Margin="210,0,200,3" Foreground="#322d29"/>
-            <TextBox Name="UserNameInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedTextBox}" TextChanged="UserNameInput_TextChanged_1"/>
-            <TextBlock Text="Jelszó" FontWeight="SemiBold" FontSize="24" Margin="210,20,200,3" Foreground="#322d29"/>
+            <TextBlock Text="Username" FontWeight="SemiBold" FontSize="24" Margin="210,0,200,3" Foreground="#322d29"/>
+            <TextBox Name="UserNameInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedTextBox}"/>
+            <TextBlock Text="Password" FontWeight="SemiBold" FontSize="24" Margin="210,20,200,3" Foreground="#322d29"/>
             <PasswordBox Name="UserPasswordInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Style="{StaticResource RoundedPswrdBox}"/>
-            <Button Content="Bejelentkezés" Style="{StaticResource RoundedYellowButton}" Height="50" Width="300" Click="LoginClick" FontWeight="SemiBold" Margin="0,50,0,0" Foreground="#CC561E"/>
-            <Button Content="Regisztráció" Style="{StaticResource RoundedYellowButton}" Height="50" Width="300" Click="RegButtonClick" FontWeight="SemiBold" Margin="0,15,0,0" Foreground="#FFE066" Background="#CC561E"/>
+            <Button Content="Login" Style="{StaticResource RoundedYellowButton}" Height="50" Width="300" Click="LoginClick" FontWeight="SemiBold" Margin="0,50,0,0" Foreground="#CC561E"/>
+            <Button Content="Register" Style="{StaticResource RoundedYellowButton}" Height="50" Width="300" Click="RegButtonClick" FontWeight="SemiBold" Margin="0,15,0,0" Foreground="#FFE066" Background="#CC561E"/>
         </StackPanel>
         
         

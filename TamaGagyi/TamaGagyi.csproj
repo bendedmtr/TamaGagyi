@@ -13,12 +13,15 @@
     <None Remove="assets\img\back.png" />
     <None Remove="assets\img\background.png" />
     <None Remove="assets\img\background_aquarium.png" />
+    <None Remove="assets\img\background_arena.png" />
     <None Remove="assets\img\background_bank.png" />
     <None Remove="assets\img\background_cage.png" />
     <None Remove="assets\img\background_mainmenu.png" />
     <None Remove="assets\img\background_reg.png" />
     <None Remove="assets\img\background_terrarium.png" />
     <None Remove="assets\img\close.png" />
+    <None Remove="assets\img\icon_food.png" />
+    <None Remove="assets\img\icon_money.png" />
     <None Remove="assets\img\logo.png" />
   </ItemGroup>
 
@@ -33,6 +36,9 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="assets\img\background_aquarium.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\background_arena.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="assets\img\background_bank.png">
@@ -51,6 +57,12 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="assets\img\close.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\icon_food.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\icon_money.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="assets\img\logo.png">

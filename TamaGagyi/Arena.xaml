@@ -325,6 +325,9 @@ WindowStartupLocation="CenterScreen">
                 <Image Source="/assets/img/close.png" Stretch="Uniform" Width="23"/>
             </Button>
         </StackPanel>
+        <Button Style="{StaticResource BackButtonWithImage}" Width="50" Height="50" Click="BackButtonEvent" Grid.Row="0" Grid.Column="0" Margin="0,0,50,50" Background="#FFE066">
+            <Image Source="/assets/img/back.png" Stretch="Uniform" Width="40" Margin="0,5,0,0"/>
+        </Button>
 
 
     </Grid>

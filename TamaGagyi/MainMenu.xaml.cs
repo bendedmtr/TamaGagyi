@@ -19,6 +19,7 @@ namespace TamaGagyi
     /// </summary>
     public partial class MainMenu : Window
     {
+        private Button _selectedAnimalButton;
 
         public MainMenu()
         {
@@ -31,21 +32,39 @@ namespace TamaGagyi
 
         private void AnimalSelectedClick(object sender, RoutedEventArgs e)
         {
-            Button animalButton = sender as Button;
-            MessageBox.Show($"{animalButton.Tag} állat kiválasztva");
-            if (sender is Button button)
-            {
-                string tagValue = button.Tag?.ToString();
+            if (sender is not Button button)
+                return;
 
-                var window = new SelectedAnimal(tagValue);
-                window.Show();
-                this.Close();
+            // FIRST CLICK -> only show MessageBox
+            if (_selectedAnimalButton != button)
+            {
+                _selectedAnimalButton = button;
+                if (button.Content is TextBlock tb)
+                {
+                    animalNameLabel.Content = tb.Text;
+                }
+                MessageBox.Show($"{button.Tag} állat kiválasztva");
+
+                return;
             }
+
+            // SECOND CLICK -> run original function
+            string tagValue = button.Tag?.ToString();
+
+            var window = new SelectedAnimal(tagValue);
+            window.Show();
+            this.Close();
         }
 
         private void UserNameInput_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+        private void battleButtonEvent(object sender, RoutedEventArgs e)
+        {
+            Arena arena = new Arena();
+            arena.Show();
+            this.Close();
         }
     }
 }

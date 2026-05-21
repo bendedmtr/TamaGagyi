@@ -568,7 +568,7 @@ FontSize="40" Foreground="White" FontWeight="Bold"/>
                 </Border>
                 <Image Source="/assets/img/icon_money.png" Width="40" Height="40" Margin="-38,0,0,-1" Visibility="Visible"/>
 
-              
+
 
             </StackPanel>
 
@@ -585,8 +585,26 @@ FontSize="40" Foreground="White" FontWeight="Bold"/>
 
         <!-- Finances tile -->
 
-        <Label Grid.Row="0" Grid.Column="8" Grid.RowSpan="5" Grid.ColumnSpan="9" Background="#4a4037" Opacity="1" Style="{StaticResource RoundedLabel}" Margin="60,40,60,60">
+        <Label Grid.Row="0" Grid.Column="8" Grid.RowSpan="5" Grid.ColumnSpan="5" Background="#4a4037" Opacity="1" Style="{StaticResource RoundedLabel}" Margin="60,40,92,60">
         </Label>
+
+        <Label Grid.Row="0" Grid.Column="12" Grid.RowSpan="5" Grid.ColumnSpan="5" Background="#4a4037" Opacity="1" Style="{StaticResource RoundedLabel}" Margin="88,40,60,60">
+        </Label>
+
+        <Label Content="Arena" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="26" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="13" Margin="10,55,0,10"/>
+
+        <Border Background="#957C62" CornerRadius="17" Grid.Row="0" Grid.Column="13" Grid.RowSpan="3" Grid.ColumnSpan="3" Margin="22,110,0,0">
+            <Ellipse Width="200" Height="214"
+    HorizontalAlignment="Center"
+    VerticalAlignment="Center"
+    Opacity="0.3"
+    Fill="Black"
+            >
+                <Ellipse.Effect>
+                    <BlurEffect Radius="100"/>
+                </Ellipse.Effect>
+            </Ellipse>
+        </Border>
 
         <StackPanel Margin="0,55,0,0" Orientation="Vertical" Grid.Row="0" Grid.Column="9" Grid.RowSpan="4" Grid.ColumnSpan="3">
 
@@ -595,15 +613,11 @@ FontSize="40" Foreground="White" FontWeight="Bold"/>
 
         </StackPanel>
 
-        <StackPanel Margin="0,55,0,0" Orientation="Vertical" Grid.Row="0" Grid.Column="12" Grid.RowSpan="4" Grid.ColumnSpan="3">
 
-            <Label Content="" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="26" HorizontalAlignment="Left"/>
+        <Label Content="Atk: 60  /  Def: 20  /  Spec: fire 20" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="18" Margin="55,5,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="3" Grid.Column="13" Grid.ColumnSpan="3"/>
 
-
-        </StackPanel>
-
-
-
+        <Button Content="Battle" Style="{StaticResource RoundedYellowButton}" Height="60" Width="150" FontWeight="SemiBold" Margin="0,0,0,40" Background="#cf4e4e" Foreground="#9e1616" FontSize="20" Grid.Row="3" Grid.Column="13" Grid.ColumnSpan="3" Grid.RowSpan="2" Click="battleButtonEvent"/>
+        <Label Content="animalName" Name="animalNameLabel" Background="Transparent" Foreground="WhiteSmoke" FontWeight="SemiBold" FontSize="26" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="13" Margin="20,0,0,55" Grid.ColumnSpan="3"/>
 
     </Grid>
 </Window>

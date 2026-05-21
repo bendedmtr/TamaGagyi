@@ -23,5 +23,17 @@ namespace TamaGagyi
         {
             InitializeComponent();
         }
+
+        private void exitButtonEvent(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void BackButtonEvent(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainWindow = new MainMenu();
+            mainWindow.Show();
+            this.Close();
+        }
     }
 }

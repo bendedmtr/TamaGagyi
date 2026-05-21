@@ -20,6 +20,10 @@ namespace TamaGagyi
     public partial class SelectedAnimal : Window
     {
         private string selectedAnimal;
+        public readonly List<(string animalName, int pictureCount)> animalInfo;
+        
+        
+
 
         public SelectedAnimal(string animal)
         {

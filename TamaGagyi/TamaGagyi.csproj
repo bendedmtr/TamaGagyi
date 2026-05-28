@@ -11,6 +11,25 @@
   <ItemGroup>
     <None Remove="assets\fonts\Fredoka.ttf" />
     <None Remove="assets\img\animals\animal_template.png" />
+    <None Remove="assets\img\animals\aquarium\japankoi1.png" />
+    <None Remove="assets\img\animals\aquarium\japankoi2.png" />
+    <None Remove="assets\img\animals\aquarium\japankoi3.png" />
+    <None Remove="assets\img\animals\aquarium\jellyfish1.png" />
+    <None Remove="assets\img\animals\aquarium\jellyfish2.png" />
+    <None Remove="assets\img\animals\aquarium\jellyfish3.png" />
+    <None Remove="assets\img\animals\aquarium\piranha1.png" />
+    <None Remove="assets\img\animals\aquarium\piranha2.png" />
+    <None Remove="assets\img\animals\cage\eagle1.png" />
+    <None Remove="assets\img\animals\cage\eagle2.png" />
+    <None Remove="assets\img\animals\cage\parrot1.png" />
+    <None Remove="assets\img\animals\cage\parrot2.png" />
+    <None Remove="assets\img\animals\cage\parrot3.png" />
+    <None Remove="assets\img\animals\terrarium\boberdozer1.png" />
+    <None Remove="assets\img\animals\terrarium\boberdozer2.png" />
+    <None Remove="assets\img\animals\terrarium\gecko1.png" />
+    <None Remove="assets\img\animals\terrarium\gecko2.png" />
+    <None Remove="assets\img\animals\terrarium\snake1.png" />
+    <None Remove="assets\img\animals\terrarium\snake2.png" />
     <None Remove="assets\img\back.png" />
     <None Remove="assets\img\background.png" />
     <None Remove="assets\img\background_aquarium.png" />
@@ -33,6 +52,63 @@
     <Resource Include="assets\img\animals\animal_template.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="assets\img\animals\aquarium\japankoi1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\aquarium\japankoi2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\aquarium\japankoi3.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\aquarium\jellyfish1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\aquarium\jellyfish2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\aquarium\jellyfish3.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\aquarium\piranha1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\aquarium\piranha2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\cage\eagle1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\cage\eagle2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\cage\parrot1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\cage\parrot2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\cage\parrot3.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\terrarium\boberdozer1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\terrarium\boberdozer2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\terrarium\gecko1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\terrarium\gecko2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\terrarium\snake1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\img\animals\terrarium\snake2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="assets\img\back.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
@@ -43,9 +119,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="assets\img\background_arena.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="assets\img\background_bank.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="assets\img\background_cage.png">

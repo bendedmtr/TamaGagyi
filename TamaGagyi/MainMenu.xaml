@@ -312,7 +312,8 @@
 
                     <WrapPanel Orientation="Horizontal"
                        ItemWidth="340"
-                       ItemHeight="230">
+                       ItemHeight="230"
+                               Name="animalPanel">
 
                         <!-- Tile -->
                         <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="cage" Click="AnimalSelectedClick" Padding="0">
@@ -324,9 +325,9 @@
                                     </Border>
                                 </ControlTemplate>
                             </Button.Template>
+                            <Image Source="/assets/img/animals/cage/eagle1.png" Height="200" Width="200" Tag="Eagle"/>
 
-                            <TextBlock Text="Eagle"
-FontSize="40" Foreground="White" FontWeight="Bold"/>
+                            
                         </Button>
 
                         <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="aquarium" Click="AnimalSelectedClick" Padding="0">
@@ -339,8 +340,7 @@ FontSize="40" Foreground="White" FontWeight="Bold"/>
                                 </ControlTemplate>
                             </Button.Template>
 
-                            <TextBlock Text="Fih" Foreground="White" FontWeight="Bold"
-                                       FontSize="40"/>
+                            <Image Source="/assets/img/animals/aquarium/japankoi3.png" Height="200" Width="200" Tag="Japan Koi"/>
                         </Button>
 
                         <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="terrarium" Click="AnimalSelectedClick" Padding="0">
@@ -353,8 +353,7 @@ FontSize="40" Foreground="White" FontWeight="Bold"/>
                                 </ControlTemplate>
                             </Button.Template>
 
-                            <TextBlock Text="Iguana" Foreground="White" FontWeight="Bold"
-                                        FontSize="40"/>
+                            <Image Source="/assets/img/animals/terrarium/boberdozer2.png" Height="200" Width="200" Tag="Bober Dozer"/>
                         </Button>
 
                         <Button Width="300" Height="200" Background="#957C62" BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Tag="animalID" Click="AnimalSelectedClick" Padding="0">
@@ -616,7 +615,7 @@ FontSize="40" Foreground="White" FontWeight="Bold"/>
 
         <Label Content="Atk: 60  /  Def: 20  /  Spec: fire 20" Background="Transparent" Foreground="#322d29" FontWeight="SemiBold" FontSize="18" Margin="55,5,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="3" Grid.Column="13" Grid.ColumnSpan="3"/>
 
-        <Button Content="Battle" Style="{StaticResource RoundedYellowButton}" Height="60" Width="150" FontWeight="SemiBold" Margin="0,0,0,40" Background="#cf4e4e" Foreground="#9e1616" FontSize="20" Grid.Row="3" Grid.Column="13" Grid.ColumnSpan="3" Grid.RowSpan="2" Click="battleButtonEvent"/>
+        <Button Content="Battle" Style="{StaticResource RoundedYellowButton}" Height="60" Width="150" FontWeight="SemiBold" Margin="0,0,0,40" Background="#cf4e4e" Foreground="DarkRed" FontSize="20" Grid.Row="3" Grid.Column="13" Grid.ColumnSpan="3" Grid.RowSpan="2" Click="battleButtonEvent"/>
         <Label Content="animalName" Name="animalNameLabel" Background="Transparent" Foreground="WhiteSmoke" FontWeight="SemiBold" FontSize="26" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="13" Margin="20,0,0,55" Grid.ColumnSpan="3"/>
 
     </Grid>

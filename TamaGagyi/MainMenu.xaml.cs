@@ -20,6 +20,7 @@ namespace TamaGagyi
     public partial class MainMenu : Window
     {
         private Button _selectedAnimalButton;
+        private Brush _defaultButtonBackground;
 
         public MainMenu()
         {
@@ -35,20 +36,36 @@ namespace TamaGagyi
             if (sender is not Button button)
                 return;
 
-            // FIRST CLICK -> only show MessageBox
+            // Save default background once
+            if (_defaultButtonBackground == null)
+                _defaultButtonBackground = button.Background;
+
+            // FIRST CLICK on a different button
             if (_selectedAnimalButton != button)
             {
-                _selectedAnimalButton = button;
-                if (button.Content is TextBlock tb)
+                // Reset previous button color
+                if (_selectedAnimalButton != null)
                 {
-                    animalNameLabel.Content = tb.Text;
+                    _selectedAnimalButton.Background = _defaultButtonBackground;
                 }
-                MessageBox.Show($"{button.Tag} állat kiválasztva");
+
+                // Store new selected button
+                _selectedAnimalButton = button;
+
+                // Change current button color
+                button.Background = (SolidColorBrush)new BrushConverter()
+                    .ConvertFrom("#96887a");
+
+                // Update label
+                if (button.Content is Image img)
+                {
+                    animalNameLabel.Content = img.Tag;
+                }
 
                 return;
             }
 
-            // SECOND CLICK -> run original function
+            // SECOND CLICK on same button
             string tagValue = button.Tag?.ToString();
 
             var window = new SelectedAnimal(tagValue);
